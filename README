@@ -1,0 +1,40 @@
+##
+国象中的knight，连续吃掉所有的pawn的游戏。
+
+###
+开始打算投影到pc上进行抓图，后来放弃了
+https://gitee.com/Barryda/QtScrcpy/releases
+pip install pypiwin32
+not pip install win32gui
+
+
+
+###
+示例
+D:\Python310\python.exe E:/git/py_knight/main.py
+屏幕截取中...请稍候!
+/sdcard/a.png: 1 file pulled, 0 skipped. 12.0 MB/s (79455 bytes in 0.006s)
+截图完毕！
+RGB
+[ ][ ][x][ ][ ][ ][ ][ ]
+[ ][ ][ ][ ][ ][ ][ ][ ]
+[x][ ][x][x][ ][ ][ ][ ]
+[x][x][x][ ][ ][ ][ ][ ]
+[ ][x][ ][x][ ][ ][ ][ ]
+[x][x][ ][x][ ][x][ ][ ]
+[ ][ ][x][ ][ ][ ][ ][ ]
+[x][ ][ ][ ][x][ ][ ][ ]
+c8a6c6d6a5b5c5b4d4a3b3d3f3c2a1e1
+solved: path is a7,c8,d6,b5,d4,f3,e1,d3,c5,a6,b4,c6,a5,b3,a1,c2,a3
+solved: path is a7,c8,d6,b5,a3,c2,a1,b3,d4,f3,e1,d3,c5,a6,b4,c6,a5
+solved: path is a7,c8,d6,b5,a3,c2,a1,b3,c5,a6,b4,d3,e1,f3,d4,c6,a5
+solved: path is a7,c8,d6,b5,a3,c2,a1,b3,a5,c6,d4,f3,e1,d3,b4,a6,c5
+solved: path is a7,c8,d6,b5,a3,c2,a1,b3,a5,c6,d4,f3,e1,d3,c5,a6,b4
+solved: path is a7,c8,d6,b5,a3,c2,a1,b3,a5,c6,b4,a6,c5,d3,e1,f3,d4
+solved: path is a7,c8,d6,b5,a3,c2,d4,f3,e1,d3,c5,a6,b4,c6,a5,b3,a1
+solved: path is a7,c8,d6,b5,a3,c2,b4,a6,c5,d3,e1,f3,d4,c6,a5,b3,a1
+
+###
+待做：
+. 自动识别出当前位置
+. 自动点击
